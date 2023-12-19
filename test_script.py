@@ -11,6 +11,7 @@ class TestWebsiteLoad(unittest.TestCase):
         # Set up Chrome in headless mode
         chrome_options = Options()
         chrome_options.add_argument('--headless')
+        chrome_options.add_argument('--no-sandbox')  # Add this line to avoid sandbox issues
         self.driver = webdriver.Chrome(options=chrome_options)
 
     def test_website_load(self):
