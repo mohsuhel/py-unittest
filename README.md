@@ -32,11 +32,15 @@ Pre-requesite
    Dashboard view
    ![py-test-4](https://github.com/mohsuhel/py-unittest/assets/127845338/9e05ca09-55a2-4fbd-93a1-5339c71d6760)
 
+# 5. Setup web driver installed in linux
+ wget https://chromedriver.storage.googleapis.com/114.0.5735.110/chromedriver_linux64.zip
+unzip chromedriver_linux64.zip
+sudo mv chromedriver /usr/local/bin/
+
+# Note : Makes sure that chrome version suitable for the webdriver
 
 
-
-  # 4. Setup the jenkins
-   # - Choose your OS flavour and installation/download guide from jenkins offically website https://www.jenkins.io/download/
+   
 
 
 
