@@ -19,7 +19,7 @@ Pre-requesite
   # 3. Update the instance and install the python
    ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
    sudo apt update    # For Ubuntu
-   sudo apt install python3
+   sudo apt install python3-pip
   
   ![py-test-2](https://github.com/mohsuhel/py-unittest/assets/127845338/076efc53-23aa-4b6e-92b1-29950d94bb0e)
 
